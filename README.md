@@ -1,1 +1,1 @@
-#JavaScript Gradient Generator
+# JavaScript Gradient Generator
