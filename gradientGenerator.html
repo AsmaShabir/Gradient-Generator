@@ -4,67 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gradient Generator</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(
+          to right,
+          rgb(92, 145, 229),
+          rgb(152, 63, 198)
+        );
+      }
+      section {
+        display: flex;
+        margin-top: 15rem;
+
+        align-items: center;
+        flex-direction: column;
+      }
+      .buttons {
+        display: flex;
+        gap: 3rem;
+      }
+      .mybtn {
+        border-radius: 50px;
+        background-color: rgb(36, 36, 63);
+        color: white;
+        width: 10rem;
+        height: 3rem;
+        border: none;
+      }
+
+      .mybtn2 {
+        border-radius: 50px;
+        background-color: greenyellow;
+        color: white;
+        width: 10rem;
+        height: 3rem;
+        border: none;
+      }
+
+      h3 {
+        color: whitesmoke;
+        margin-top: 1rem;
+      }
+      .copyCode {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 1.2rem;
+        /* background-color: white; */
+        /* opacity: 0.5; */
+        background-color: rgba(255, 255, 255, 0.1);
+        border-left: 2px solid white;
+        max-width: 17rem;
+        padding: 8px 8px 8px 15px;
+      }
+    </style>
   </head>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      background-image: linear-gradient(
-        to right,
-        rgb(92, 145, 229),
-        rgb(152, 63, 198)
-      );
-    }
-    section {
-      display: flex;
-      margin-top: 15rem;
-
-      align-items: center;
-      flex-direction: column;
-    }
-    .buttons {
-      display: flex;
-      gap: 3rem;
-    }
-    .mybtn {
-      border-radius: 50px;
-      background-color: rgb(36, 36, 63);
-      color: white;
-      width: 10rem;
-      height: 3rem;
-      border: none;
-    }
-
-    .mybtn2 {
-      border-radius: 50px;
-      background-color: greenyellow;
-      color: white;
-      width: 10rem;
-      height: 3rem;
-      border: none;
-    }
-
-    h3 {
-      color: whitesmoke;
-      margin-top: 1rem;
-    }
-    .copyCode {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      margin-top: 1.2rem;
-      /* background-color: white; */
-      /* opacity: 0.5; */
-      background-color: rgba(255, 255, 255, 0.1);
-      border-left: 2px solid white;
-      max-width: 17rem;
-      padding: 8px 8px 8px 15px;
-    }
-  </style>
   <body>
     <div class="bg-color">
       <section>
